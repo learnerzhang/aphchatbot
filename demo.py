@@ -1,10 +1,10 @@
 # -*- coding:utf-8 -*-
-
+import aiml as aiml
 import programy
 import os
 
 
-def aiml():
+def _aiml():
     alice_path = './resources/alice'
     os.chdir(alice_path)
     alice = aiml.Kernel()
@@ -16,3 +16,4 @@ def aiml():
 
 if __name__ == '__main__':
     print(1)
+    _aiml()
